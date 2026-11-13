@@ -1,0 +1,19 @@
+name: Question or help
+description: Ask a question about using this kit
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like help with?
+      description: Include which part of the kit you are using and what you have tried.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant context
+      description: Remove secrets, private repository content, and personal data.
+    validations:
+      required: false
